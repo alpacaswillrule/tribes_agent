@@ -70,7 +70,9 @@ class Run {
         RHEA,
         OEP,
         EMCTS,
-        PORTFOLIO_MCTS
+        PORTFOLIO_MCTS,
+
+        ALPACADETAGENT
     }
 
     public static double K_INIT_MULT = 0.5;
@@ -102,6 +104,7 @@ class Run {
             case "OEP": return Run.PlayerType.OEP;
             case "pMCTS": return Run.PlayerType.PORTFOLIO_MCTS;
             case "EMCTS": return Run.PlayerType.EMCTS;
+            case "AlpacadetAgent": return Run.PlayerType.ALPACADETAGENT;
         }
         throw new Exception("Error: unrecognized Player Type: " + arg);
     }

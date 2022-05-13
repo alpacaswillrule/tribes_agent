@@ -2,13 +2,13 @@ package players.heuristics;
 
 import core.Types;
 import core.game.GameState;
-import jdk.nashorn.api.tree.Tree;
+//import jdk.nashorn.api.tree.Tree;
 import players.portfolio.ActionAssignment;
 import players.portfolio.Portfolio;
 import players.portfolio.scripts.BaseScript;
 import players.portfolioMCTS.PortfolioTreeNode;
 
-import java.awt.image.AreaAveragingScaleFilter;
+//import java.awt.image.AreaAveragingScaleFilter;
 import java.util.*;
 import static core.Types.ACTION.*;
 
